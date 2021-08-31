@@ -1,27 +1,46 @@
-# Github
+# Git-Search App
+This is a website to search for github usernames and repositories Created by Grievin Otieno August/31/08/2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+## Description
 
-## Development server
+Git-search app is a simple easy to use website to search repositories by username or by repository name across Github.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### App Preview and Description
 
-## Code scaffolding
+* Enter your username/repo you want to search in the search bar input 
+* Click search 
+* Wait and see the result
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### landing page
+<img src="src/assets/landing1.png">
 
-## Build
+#### Search Result
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<img src="src/assets/search.png">
 
-## Running unit tests
+<img src="src/assets/footer.png">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Setup Installation/Requirements
+* Install angular CLI
+* Fork this repo
+* Copy the url
+* Clone the copied Url to your Terminal in your computer
+* ng serve -o to open your application
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Technologies Used
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Angular 
+* Bootsrap
+* HTML
+* CSS
+
+
+## Known Bugs
+No Known Bugs at the moment
+
+## Support and Contact Details
+You can get intouch with me via enogroti@gmail.com or on cell 0714 880 548
+## Licence
+Read our licences Copyright (c) 2021 Grievin Otieno

@@ -28,7 +28,7 @@ export class ProfileComponent implements OnInit {
    }
 
   ngOnInit()  {
-    this.username = ('Grievi')
+    
   }
 
 }
