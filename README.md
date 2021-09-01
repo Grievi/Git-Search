@@ -1,46 +1,68 @@
-# Git-Search App
-This is a website to search for github usernames and repositories Created by Grievin Otieno August/31/08/2021
+# Quotit
 
-## Description
+#### AUTHOR **{Maxwell Munene}**
 
-Git-search app is a simple easy to use website to search repositories by username or by repository name across Github.
-
-### App Preview and Description
-
-* Enter your username/repo you want to search in the search bar input 
-* Click search 
-* Wait and see the result
-
-#### landing page
-<img src="src/assets/landing1.png">
-
-#### Search Result
-
-<img src="src/assets/search.png">
-
-<img src="src/assets/footer.png">
+This is a simple WEB application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories. This project was generated with Angular CLI.
 
 
-## Setup Installation/Requirements
-* Install angular CLI
-* Fork this repo
-* Copy the url
-* Clone the copied Url to your Terminal in your computer
-* ng serve -o to open your application
+![USER INTERFACE](src/assets/Landingpage.png) (LANDING PAGE)
+![USER INTERFACE](src/assets/homepage2.png) (USERS PROFILE)
 
 
-## Technologies Used
+##Technical Requirements
+* Project must contain a well-designed landing page that displays your GitHub information such 	as your username, your profile photos and a list of your repositories.
+* Place access key inside the environment.ts file and place it inside the gitignore file.
+* Create a HTTP service that uses a promise to make the requests to the GitHub API.
+* The HTTP request should be able to search for both GitHub users and GitHub repositories.
+* Project must have two classes for the user and repository.
+* Project must have a proper routing structure that links a GitHub username to the users GitHub 	repositories.
+* Project must have a separate routing module.
+* Project must contain a custom directive and a custom pipe.
+* Project must be well designed and visually appealing and of portfolio quality.
+* Project must have a well-documented README file.
+* Project must be deployed and the deployed link should be submitted.
 
-* Angular 
-* Bootsrap
-* HTML
-* CSS
+
+## Setup/Installation Requirements.
+* To rebuild this app run **git clone https://github.com/tailorv/Git-Insta.git**  on your command line.
 
 
-## Known Bugs
-No Known Bugs at the moment
+## BDD
+* Use the GitHub API (Links to an external site.)Links to an external site. to retrieve 	this information. This API allows 5,000 requests per hour with an API key, but only 60 	requests per hour _without_ one. Everyone is therefore required to use their own unique 	key. GitHub refers to these keys as "Personal Access Tokens".
 
-## Support and Contact Details
-You can get intouch with me via enogroti@gmail.com or on cell 0714 880 548
-## Licence
-Read our licences Copyright (c) 2021 Grievin Otieno
+## Technologies Used.
+ * ANGULAR
+ * HTML
+ * CSS
+ * BOOTSTRAP
+
+
+## Support and contact details
+{ email maxwell.munene@student.moringaschool.com}
+### License
+{MIT License
+
+Copyright (c) 2021
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+}
+Copyright (c) {2021} **{Maxwell Munene}**
+
+## Further help
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
